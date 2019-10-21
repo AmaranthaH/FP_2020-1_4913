@@ -35,7 +35,7 @@ int main(int argc, char*argv[]){
 	resultador = resta(x,y);
 	resultadom= multiplicacion(x,y);
 	resultadod = division(x,y);
-	printf("%.2lf\n %.2lf\n %.2lf\n %.2lf\n",resultados,resultador,resultadom,resultadod);
+	printf("%.2lf\n%.2lf\n%.2lf\n%.2lf\n",resultados,resultador,resultadom,resultadod);
 	return 0;
 	
 }
