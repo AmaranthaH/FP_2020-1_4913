@@ -21,7 +21,7 @@ double division(double x, double y){
 	z= x/y;
 	return z;
 }
-//funciones para los valores que se necesitan9p
+//funciones para lo que se quiere hacer, con los ejemplos
 int main(int argc, char*argv[]){
 	double x,y;
 	x = atof(argv[1]);
@@ -30,7 +30,7 @@ int main(int argc, char*argv[]){
 	double resultador;
 	double resultadom;
 	double resultadod;
-	//con las funciones solo se tienen qje mandar a llamar
+	//con las funciones solo se tienen que mandar a llamar la funcion que se quiere hacer
 	resultados= suma(x,y);
 	resultador = resta(x,y);
 	resultadom= multiplicacion(x,y);
