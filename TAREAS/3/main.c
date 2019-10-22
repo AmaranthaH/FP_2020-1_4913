@@ -21,7 +21,7 @@ double division(double x, double y){
 	z= x/y;
 	return z;
 }
-
+//funciones para los valores que se necesitan9p
 int main(int argc, char*argv[]){
 	double x,y;
 	x = atof(argv[1]);
