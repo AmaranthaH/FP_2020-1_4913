@@ -30,7 +30,7 @@ int main(int argc, char*argv[]){
 	double resultador;
 	double resultadom;
 	double resultadod;
-	
+	//con las funciones solo se tienen qje mandar a llamar
 	resultados= suma(x,y);
 	resultador = resta(x,y);
 	resultadom= multiplicacion(x,y);
