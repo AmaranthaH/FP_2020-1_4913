@@ -9,7 +9,7 @@ for(int i=1;i<argc;i++){
   char n=argv[i][0];
   //los if funcionan para encontrar los valores que se quieren
   //si el valor ingresado no pertenesiera a ninguno de estos simplemente no regresaria ese valor
-  if(n =='2'|| n =='3'|| n =='4'|| n =='5'|| n =='6'|| n =='7'|| n =='6'||n =='9' ){
+  if(n =='2'|| n =='3'|| n =='4'|| n =='5'|| n =='6'|| n =='7'|| n =='6'||n =='9'){
   printf("%c\n",n);
   }
   if(n=='J'|| n == 'Q'|| n=='K'){
