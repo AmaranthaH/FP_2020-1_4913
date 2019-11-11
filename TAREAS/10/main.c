@@ -3,11 +3,11 @@
 #include <math.h>
 
 int main(int argc, char *argv[]) {
-int a= atoi(argv[1]); //numero a, b y c
-int b= atoi(argv[2]);
-int c= atoi(argv[3]);
-int g;
-float r,r2;
+double a= atoi(argv[1]); //numero a, b y c
+double b= atoi(argv[2]);
+double c= atoi(argv[3]);
+double g;
+double r,r2;
 if(a!=0){
 	//se evaluara primero el valor dentro de la raiz para saber como tratar a los numeros
   g=(b*b)-(4*(a*c));
@@ -23,15 +23,17 @@ if(a!=0){
       r=(-b)/(2*a);
       printf("%.2lf",r);
     }
-
     if(g<0){
       g=(-g);
+      g=sqrt(g);
       a= 2*a;
       b=(-b);
-      printf("(%i + v%di)/%i\n",b,g,a);
-      printf("(%i - v%di)/%i\n",b,g,a);
+      if(b==0){
+        b=0;
+      }
+      printf("(%.2lf + %.2lfi)/%.2lf\n",b,g,a);
+      printf("(%.2lf - %.2lfi)/%.2lf\n",b,g,a);
     }
   }
 
 }
-
