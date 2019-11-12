@@ -24,5 +24,5 @@ double x, y, z;
 	y = atof(argv[2]);
   z = atof(argv[3]);
 double r=raiz(x,y,z);
-printf("%f",r);
+printf("%lf",r);
 }
