@@ -3,9 +3,9 @@
 #include <math.h>
 
 int main(int argc, char *argv[]) {
-double a= atoi(argv[1]); //numero a, b y c
-double b= atoi(argv[2]);
-double c= atoi(argv[3]);
+double a= atof(argv[1]); //numero a, b y c
+double b= atof(argv[2]);
+double c= atof(argv[3]);
 double g;
 double r,r2;
 if(a!=0){
