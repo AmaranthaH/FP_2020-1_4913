@@ -21,7 +21,7 @@ if(a!=0){
   }
     if(g==0){
       r=(-b)/(2*a);
-      printf("%.2lf",r);
+      printf("%.2lf\n",r);
     }
     if(g<0){
       g=(-g);
