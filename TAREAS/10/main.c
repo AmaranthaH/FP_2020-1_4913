@@ -8,7 +8,7 @@ double b= atof(argv[2]);
 double c= atof(argv[3]);
 double g;
 double r,r2;
-if(a!=0){
+if(a!=0){  
 	//se evaluara primero el valor dentro de la raiz para saber como tratar a los numeros
   g=(b*b)-(4*(a*c));
 //segun si sale  mayor a 0, menor a 0 o igual a 0, mostrara las raices que tiene
@@ -31,8 +31,11 @@ if(a!=0){
       if(b==0){
         b=0;
       }
-      printf("(%.2lf + %.2lfi)/%.2lf\n",b,g,a);
-      printf("(%.2lf - %.2lfi)/%.2lf\n",b,g,a);
+      b=b/a,
+      g=g/a;
+      
+      printf("%.2lf + %.2lfi\n",b,g);
+      printf("%.2lf - %.2lfi\n",b,g);
     }
   }
 
